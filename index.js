@@ -13,8 +13,8 @@ const port = 3000
 var pool = mysql.createPool({
   connectionLimit: 10,
   host: "localhost",
-  user: "root",
-  password: "1424@Parole132725",
+  user: "gtmetrix",
+  password: "testpass",
   database: 'gtmetrixdb'
 });
 
